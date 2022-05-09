@@ -1,0 +1,259 @@
+{
+	"info": {
+		"_postman_id": "dfebfd1a-dc68-422d-bdf3-fb47f835ae7a",
+		"name": "inisev",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://inisev.test:8080/api/post/new",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "TITLE",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Description",
+							"type": "text"
+						},
+						{
+							"key": "f_website_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://inisev.test:8080/api/post/new",
+					"protocol": "http",
+					"host": [
+						"inisev",
+						"test"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"post",
+						"new"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://inisev.test:8080/api/post/new",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "TITLE",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Description",
+									"type": "text"
+								},
+								{
+									"key": "f_website_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://inisev.test:8080/api/post/new",
+							"protocol": "http",
+							"host": [
+								"inisev",
+								"test"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"post",
+								"new"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.16.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.28"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 09 May 2022 21:37:43 GMT"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 1,\n    \"message\": \"Post addded successfully !\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://inisev.test:8080/api/subscribtion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "f_user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "f_website_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://inisev.test:8080/api/subscribtion",
+					"protocol": "http",
+					"host": [
+						"inisev",
+						"test"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"subscribtion"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://inisev.test:8080/api/subscribtion",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "f_user_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "f_website_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://inisev.test:8080/api/subscribtion",
+							"protocol": "http",
+							"host": [
+								"inisev",
+								"test"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"subscribtion"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.16.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.28"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 09 May 2022 20:46:57 GMT"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 1,\n    \"message\": \"User subscribed successfully !\"\n}"
+				}
+			]
+		}
+	]
+}
